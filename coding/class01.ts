@@ -59,7 +59,7 @@ function welcomeFunction(userName: string) {
   const returnvalue = `Hello! ${userName} ${value}`;
   return returnvalue;
 }
-const value = welcomeFunction("Sridevi");
+const value = welcomeFunction("Venki");
 console.log(value);
 
 // " string" + variable + "string";
@@ -96,7 +96,7 @@ function learning(name: string, completedClass?: string) {
   crtValue = completedClass ?? "NA";
   return `${name}  ${crtValue} day completed`;
 }
-const day = learning("Sridevi");
+const day = learning("Venki");
 console.log(day);
 /**
  *
@@ -106,5 +106,5 @@ console.log(day);
 function learning01(name: string, completedClass: string = "NA") {
   return `${name}  ${completedClass} day completed`;
 }
-const day01 = learning01("Sridevi");
+const day01 = learning01("Venki");
 console.log(day01);
