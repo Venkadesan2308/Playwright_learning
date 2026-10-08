@@ -9,7 +9,7 @@ function learning01(name: string, completedClass: string = "NA") {
   return `${name}  ${completedClass} day class completed`;
 }
 
-const value = welcomeFunction("Sridevi");
+const value = welcomeFunction("Venki");
 console.log(value);
 
 const day = learning01(value, "2nd");
